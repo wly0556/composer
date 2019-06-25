@@ -1,2 +1,3 @@
 <?php
-echo 1;
+include "vendor\autoload.php";
+core\Boorstrap::run();

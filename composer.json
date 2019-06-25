@@ -1,16 +1,22 @@
 {
-    "name": "wangliyong/composer",
+    "name": "wly0556/composer",
     "description": "a test composer project",
     "type": "project",
-    "require": {
-        "houdunwang/hdphp": "*"
-    },
     "license": "MIT",
     "authors": [
         {
             "name": "wly0556",
-            "email": "wangliyong@mobanker.com"
+            "email": "wly0556@163.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
+        "psr-4": {
+            "core\\": "core/",
+            "web\\": "web/"
+        }
+    }
 }
