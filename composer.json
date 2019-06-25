@@ -1,0 +1,16 @@
+{
+    "name": "wangliyong/composer",
+    "description": "a test composer project",
+    "type": "project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wly0556",
+            "email": "wangliyong@mobanker.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
