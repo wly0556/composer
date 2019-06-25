@@ -18,5 +18,8 @@
             "core\\": "core/",
             "web\\": "web/"
         }
+    },
+    "require": {
+        "gregwar/captcha": "dev-master"
     }
 }
